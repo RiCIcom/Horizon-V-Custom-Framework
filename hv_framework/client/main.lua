@@ -1,4 +1,5 @@
-RegisterNetEvent('hvcore:clientconsole')
-AddEventHandler('hvcore:clientconsole', function(data)
+HVCore.ClientFunctions = {}
+
+HVCore.ClientFunctions.debug = function(data)
     print(data)
-end)
+end
